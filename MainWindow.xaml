@@ -26,11 +26,11 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <Label Content="Item" HorizontalAlignment="Left" Margin="57,102,0,0" VerticalAlignment="Top" Width="52"/>
-        <TextBox x:Name="itemNameBox" HorizontalAlignment="Left" Height="23" Margin="147,106,0,0" TextWrapping="Wrap" Text="Lampu Led" VerticalAlignment="Top" Width="255"/>
+        <TextBox x:Name="itemNameBox" HorizontalAlignment="Left" Height="23" Margin="147,106,0,0" TextWrapping="Wrap" Text="Buzzer" VerticalAlignment="Top" Width="255"/>
         <Label Content="Tipe" HorizontalAlignment="Left" Margin="57,140,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="typeBox" HorizontalAlignment="Left" Margin="147,141,0,0" VerticalAlignment="Top" Width="255">
-            <ComboBoxItem>Barang</ComboBoxItem>
-            <ComboBoxItem IsSelected="True">Jasa</ComboBoxItem>
+            <ComboBoxItem>Jasa</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Barang</ComboBoxItem>
         </ComboBox>
         <Label Content="Total" HorizontalAlignment="Left" Margin="63,577,0,0" VerticalAlignment="Top" Width="46"/>
         <Label Content="The Cashier" HorizontalAlignment="Left" Margin="58,27,0,0" VerticalAlignment="Top" Width="344" FontWeight="Bold" FontSize="36"/>
@@ -38,7 +38,7 @@
         <Label Content="Jumlah" HorizontalAlignment="Left" Margin="57,182,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="quantityBox" HorizontalAlignment="Left" Height="23" Margin="147,183,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="255"/>
         <Label Content="Harga(Rp)" HorizontalAlignment="Left" Margin="58,221,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Height="23" Margin="147,222,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="255"/>
+        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Height="23" Margin="147,222,0,0" TextWrapping="Wrap" Text="10000" VerticalAlignment="Top" Width="255"/>
         <ListBox HorizontalAlignment="Left" Height="27" Margin="58,301,0,0" VerticalAlignment="Top" Width="344">
             <Grid Margin="0,2">
                 <Grid.ColumnDefinitions>
